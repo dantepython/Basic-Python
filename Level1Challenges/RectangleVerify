@@ -1,0 +1,24 @@
+# Display a welcome message to the user
+print("Rectangle Area Calculator")
+
+# Ask the user to enter the rectangle width
+width = float(input("Enter the width: "))
+
+# Ask the user to enter the rectangle height
+height = float(input("Enter the height: "))
+
+# Calculate the area by multiplying width and height
+area = width * height
+
+# Show the calculated area
+print(f"The area of the rectangle is {area}")
+
+# Check if the area is greater than 100
+if area > 100:
+    # This message is shown if the condition is true
+    print("This is a large rectangle!")
+
+else:
+    # This message is shown if the condition is false
+    print("This is a small rectangle!")
+# Today you learned if and else! Well done!
